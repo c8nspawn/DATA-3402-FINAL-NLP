@@ -57,14 +57,14 @@ Given a train.csv and test.csv, running the inference notebook will create the m
 
 ### Overview of files in repository
 
-|-- DATA-3402-FINAL-NLP
-|    |--models
-|    |    |--model_1.pth: saved encoder fo the classifier
-|    | --images: folder for readme related image
-|    |--project-initialization.ipynb: downloads kaggle challenge related data and preprocesses
-|    |--model-training-1.ipynb: model is created and saved here
-|    |--inference.ipynb: previous two notebooks run, submission is generated and saved
-|    |--utils.py: holds the preprocessing done to the text to remove extraneous features
+|-- DATA-3402-FINAL-NLP\
+|    |--models\
+|    |    |--model_1.pth: saved encoder fo the classifier\
+|    | --images: folder for readme related image\
+|    |--project-initialization.ipynb: downloads kaggle challenge related data and preprocesses\
+|    |--model-training-1.ipynb: model is created and saved here\
+|    |--inference.ipynb: previous two notebooks run, submission is generated and saved\
+|    |--utils.py: holds the preprocessing done to the text to remove extraneous features\
 |    |--README.md
 
 ### Software Setup
