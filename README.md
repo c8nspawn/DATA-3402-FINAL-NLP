@@ -11,8 +11,6 @@ The goal of this Kaggle challenge is to use Natural Language Processing (NLP) to
 
 ## Summary of Workdone
 
-Include only the sections that are relevant an appropriate.
-
 ### Data
 
 * Data:
