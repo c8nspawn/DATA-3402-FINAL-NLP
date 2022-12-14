@@ -1,4 +1,4 @@
-![](UTA-DataScience-Logo.png)
+![](images/UTA-DataScience-Logo.png)
 
 # NLP - FastAI Transfer Learning with Disaster Tweets
 
@@ -35,11 +35,11 @@ The Input of this function is text, so I wanted to find a package that focuses o
 - Data is vectorized and segmented using FastAIs TextDataLoader, with the validation percent set to 20% and a specific seed chosen of '1337'
 - Setting up the pretrained model with the new dataset, an architecture AWD-LSTM(1), Dropout Multiplier of 0.5 to scale the dropout weights for nodes, and the metrics set to accuracy.
 - Finally, the learning rate used is approximated by emualting fitting with different learning rates from 10e-7 to 10e0 to find a valley. The valley is found the 0.002, so thats what was chosen for the model.(2)
-![[lr_finder.png]]
+![](images/lr_finder.png)
 
 ### Training
 Through various trails in find tuning, I found that training with 3 epochs yielded the best split between training and validation losses. Below is a chart graphing the loss over trained data (split-up epochs).
-![[Pasted image 20221213193421.png]]
+![](images/loss.png)
 
 Overall, the training took 13 minutes and 37 seconds on my hardware using the cpu build of pytorch on my computer. 
 
